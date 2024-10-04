@@ -99,6 +99,7 @@ public class WordLadder_I {
             String word = pop.word;
             int level = pop.level;
 
+            // N * word length * 26
             char[] replaceWord = word.toCharArray();
             for (int i = 0; i < word.length(); i++) {
                 char ch = replaceWord[i];
